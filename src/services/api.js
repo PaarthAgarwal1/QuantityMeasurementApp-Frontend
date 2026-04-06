@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL:"quantitymeasurementapp-production-db23.up.railway.app"
 });
 
 api.interceptors.request.use((config) => {
